@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Hello world javascript
         id: hw
-        uses: deepak-gc/custom-github-action@v1.2
+        uses: actions/custom-github-action@v1.2
         with:
           who-to-greet: Mauro
       - name: Log output

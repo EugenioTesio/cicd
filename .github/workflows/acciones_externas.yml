@@ -12,5 +12,5 @@ jobs:
         with:
           who-to-greet: Mauro
       - name: Log output
-        run: echo {{ steps.hw.outputs.time }}
+        run: echo ${{ steps.hw.outputs.time }}
 

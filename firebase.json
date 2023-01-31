@@ -1,0 +1,15 @@
+{
+  "hosting": [
+    {
+      "target": "cicd-course-autodeploy",
+      "public": "build/web",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**",
+        "**/__/firebase/init.js"
+      ],
+      "appAssociation": "AUTO"
+    }
+  ]
+}

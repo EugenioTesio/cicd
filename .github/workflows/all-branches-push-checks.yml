@@ -20,7 +20,7 @@ jobs:
     - run: flutter pub get
 
     # check for issues with formatting
-    - run: flutter format --line-length=80 --set-exit-if-changed .
+    - run: dart format --line-length=80 --set-exit-if-changed .
 
     # In case you need to run the code generator, uncomment this block
     # Run code generator

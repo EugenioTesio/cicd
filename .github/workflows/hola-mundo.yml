@@ -29,4 +29,3 @@ jobs:
         run: Get-Location
       - name: pwd
         run: bash
-
